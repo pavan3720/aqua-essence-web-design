@@ -20,7 +20,7 @@ const Index = () => {
                 for Your Business
               </h1>
               <p className="text-lg text-gray-600 mb-8">
-                High-quality mineral water sourced from protected mountain springs. 
+                High-quality mineral water sourced from underground aquifers. 
                 Perfect for hotels, restaurants, offices, and wholesale distribution.
               </p>
               <Button className="bg-crystal-500 hover:bg-crystal-600 text-white px-8 py-6 text-lg">
@@ -50,8 +50,8 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Bulk Natural Spring",
-                description: "Pure mountain spring water in 5L bottles, perfect for offices and restaurants.",
+                title: "Bulk Ground Water",
+                description: "Pure ground water in 5L bottles, perfect for offices and restaurants.",
                 minOrder: "100 units"
               },
               {
