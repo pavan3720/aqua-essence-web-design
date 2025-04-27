@@ -1,8 +1,7 @@
-
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Package, ShoppingCart, Truck } from "lucide-react";
+import { ArrowRight, Package, ShoppingCart, Truck, Building, Users, BriefcaseBusiness } from "lucide-react";
 import WholesaleForm from "@/components/WholesaleForm";
 
 const Index = () => {
@@ -76,6 +75,41 @@ const Index = () => {
                 <p className="text-sm text-crystal-600">Minimum order: {product.minOrder}</p>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Company Details Section */}
+      <section id="about" className="py-16 md:py-24 bg-crystal-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-crystal-900">
+            About AquaPure
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="p-6">
+              <Building className="w-12 h-12 text-crystal-500 mb-4" />
+              <h3 className="text-xl font-bold text-crystal-800 mb-3">Established Excellence</h3>
+              <p className="text-gray-600">
+                Founded in 2010, AquaPure has been a leading provider of premium ground water solutions 
+                for businesses across the region.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <Users className="w-12 h-12 text-crystal-500 mb-4" />
+              <h3 className="text-xl font-bold text-crystal-800 mb-3">Expert Team</h3>
+              <p className="text-gray-600">
+                Our dedicated team of water quality experts and logistics professionals ensures 
+                the highest standards of service and product quality.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <BriefcaseBusiness className="w-12 h-12 text-crystal-500 mb-4" />
+              <h3 className="text-xl font-bold text-crystal-800 mb-3">Business Focus</h3>
+              <p className="text-gray-600">
+                Specializing in wholesale water distribution, we serve hotels, restaurants, 
+                offices, and large-scale facilities with tailored solutions.
+              </p>
+            </Card>
           </div>
         </div>
       </section>
