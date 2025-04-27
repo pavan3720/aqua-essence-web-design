@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Package, ShoppingCart, Truck, Building, Users, BriefcaseBusiness } from "lucide-react";
+import { ArrowRight, Package, ShoppingCart, Truck, Building, Users, BriefcaseBusiness, MapPin } from "lucide-react";
 import WholesaleForm from "@/components/WholesaleForm";
 
 const Index = () => {
@@ -103,11 +103,13 @@ const Index = () => {
               </p>
             </Card>
             <Card className="p-6">
-              <BriefcaseBusiness className="w-12 h-12 text-crystal-500 mb-4" />
-              <h3 className="text-xl font-bold text-crystal-800 mb-3">Business Focus</h3>
+              <MapPin className="w-12 h-12 text-crystal-500 mb-4" />
+              <h3 className="text-xl font-bold text-crystal-800 mb-3">Company Headquarters</h3>
               <p className="text-gray-600">
-                Specializing in wholesale water distribution, we serve hotels, restaurants, 
-                offices, and large-scale facilities with tailored solutions.
+                1234 Water Street<br />
+                Business District<br />
+                San Francisco, CA 94105<br />
+                United States
               </p>
             </Card>
           </div>
