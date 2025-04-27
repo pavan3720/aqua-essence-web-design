@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,6 +19,7 @@ const Navbar = () => {
             <a href="#products" className="text-gray-600 hover:text-crystal-500">Products</a>
             <a href="#about" className="text-gray-600 hover:text-crystal-500">About</a>
             <a href="#benefits" className="text-gray-600 hover:text-crystal-500">Benefits</a>
+            <a href="/reviews" className="text-gray-600 hover:text-crystal-500">Reviews</a>
             <Button variant="default" className="bg-crystal-500 hover:bg-crystal-600">
               Contact Us
             </Button>
@@ -67,6 +67,13 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 Benefits
+              </a>
+              <a
+                href="/reviews"
+                className="block px-3 py-2 text-gray-600 hover:text-crystal-500"
+                onClick={() => setIsOpen(false)}
+              >
+                Reviews
               </a>
               <Button
                 variant="default"
