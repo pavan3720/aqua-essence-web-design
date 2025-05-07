@@ -49,24 +49,24 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Bulk Ground Water",
-                description: "Pure ground water in 5L bottles, perfect for offices and restaurants.",
+                title: "Half Liter Water Bottles",
+                description: "Pure ground water in 0.5L bottles, perfect for offices and restaurants.",
                 minOrder: "100 units"
               },
               {
-                title: "Premium Glass Line",
-                description: "Elegant glass bottles for high-end establishments and special events.",
-                minOrder: "200 units"
+                title: "One Liter Water Bottles",
+                description: "Pure ground water in 1L bottles, perfect for offices and restaurants.",
+                minOrder: "100 units"
               },
               {
-                title: "Eco-Friendly Pack",
-                description: "Sustainable packaging options with recycled materials.",
-                minOrder: "150 units"
+                title: "Five Liter Water Bottles",
+                description: "Pure ground water in 5L bottles, perfect for offices and restaurants.",
+                minOrder: "100 units"
               }
             ].map((product) => (
               <Card key={product.title} className="p-6 hover:shadow-lg transition-shadow">
                 <img
-                  src="https://images.unsplash.com/photo-1500673922987-e212871fec22"
+                  src="https://i.postimg.cc/jq3r7hVr/aqua-bottels.png"
                   alt={product.title}
                   className="w-full h-64 object-cover rounded-lg mb-4"
                 />
@@ -90,7 +90,7 @@ const Index = () => {
               <Building className="w-12 h-12 text-crystal-500 mb-4" />
               <h3 className="text-xl font-bold text-crystal-800 mb-3">Established Excellence</h3>
               <p className="text-gray-600">
-                Founded in 2010, AquaPure has been a leading provider of premium ground water solutions 
+                Founded in 2010, AquaPure has providing mineral drinking water solutions
                 for businesses across the region.
               </p>
             </Card>
@@ -106,10 +106,10 @@ const Index = () => {
               <MapPin className="w-12 h-12 text-crystal-500 mb-4" />
               <h3 className="text-xl font-bold text-crystal-800 mb-3">Company Headquarters</h3>
               <p className="text-gray-600">
-                1234 Water Street<br />
-                Business District<br />
-                San Francisco, CA 94105<br />
-                United States
+                Vidyanagara <br />
+                Chikjajur<br />
+                Chitradurga, Karnataka<br />
+                India
               </p>
             </Card>
           </div>
